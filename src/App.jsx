@@ -3,15 +3,14 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import {CiSearch} from "react-icons/ci";
+import {BsThreeDotsVertical} from "react-icons/bs";
 import {AiOutlineRight} from "react-icons/ai";
 import Card from './Card';
-import image1 from '/image1.png'
 import image2 from '/image2.png'
 import image3 from '/image3.png'
 import image4 from '/image4.png'
 import image5 from '/image5.png'
 function App() {
-  
   return (
     <>
       <h1 className='mx-40 mt-10 font-bold text-2xl'>Tech Blog</h1>
@@ -33,7 +32,16 @@ function App() {
       <div className='container2'>
 
      <Card image={image5} />
-     <Card image={image1} />
+     <div className='card'>
+        <div>
+          <img src="./image1.png" className='image2'></img>
+          <div className='img_content font-light text-sm'><span className='card_text'>December 30,2021</span>
+          <BsThreeDotsVertical className='font-bold text-xl' /></div>
+        </div>
+        <div className='content'>
+        How to Build a Website From Scratch in 10 Simple Steps a day ago
+        </div>
+      </div>
      <Card image={image3} />
      <Card image={image4} />
      <Card image={image2} />
