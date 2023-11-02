@@ -1,10 +1,11 @@
 import React from 'react'
+import {BsThreeDotsVertical} from "react-icons/bs";
 
 const Card = (props) => {
   return (
       <div className='card'>
         <div>
-          <img src={props}></img>
+          <img src={props.image}></img>
           <div className='img_content font-light text-sm'><span className='card_text'>December 30,2021</span>
           <BsThreeDotsVertical className='font-bold text-xl' /></div>
         </div>

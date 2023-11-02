@@ -4,10 +4,10 @@ body{
 .head{
   width: 300px;
   height: 200px;
-  margin-left: 17%;
-  margin-right: 10%;
+  margin-left: 13%;
+  margin-right: 17%;
   margin-top: 5%;
-  /* margin: 100px 100px 500px 0px; */
+  font-weight: 400;
 }
 .image{
   width: 400px;
@@ -18,7 +18,21 @@ body{
   display: flex;
   height: 390px;
 }
-
+.readmore{
+  width: 170px;
+  height: 40px;
+  display: flex;
+  border-bottom: 1.5px solid rgb(81, 79, 79);
+  margin-left: 200px;
+  font-size: 20px;
+  margin-top: -60px;
+}
+.readmore span{
+ margin-right: 50px;
+}
+.readmore_icon{
+  margin-top: 10px;
+}
 .container2{
   display: flex;
   flex-wrap: wrap;
@@ -75,11 +89,22 @@ body{
 }
 
 .search{
+  display: flex;
   margin-right: 0px;
-  width: 150px;
+  width: 180px;
   height: 55px;
-  border: 1.5px solid rgb(81, 79, 79);
+  border: 1.8px solid rgb(109, 107, 107);
   border-radius: 8px;
   margin-bottom: 30px;
   margin-left: 70%;
+}
+.search span{
+  margin-top: 15px;
+  text-align: center;
+  font-size: 15px;
+}
+.search-icon{
+  width: 25px;
+  height: 25px;
+  margin: 15px 20px 10px 15px;
 }
