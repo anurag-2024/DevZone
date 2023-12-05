@@ -56,7 +56,7 @@ function App() {
          <div>
           <img src='/image6.png' />
          </div>
-         Made with ♥ by Akshat Mittal
+         Made with ♥ by Anurag Patel
       </div>
     </>
   )
